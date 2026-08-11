@@ -1,0 +1,38 @@
+.link-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    width: 50%;
+    padding: 24px;
+    margin: 0 auto;
+
+}
+
+.title-box {
+    text-align: center;
+    padding: 24px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.home-split {
+    display: flex;
+    height: 100%;
+}
+
+.home-right-split, .home-left-split {
+    padding: 25px;
+}
+
+.home-left-split {
+    width: 70%;
+}
+
+.home-right-split {
+    width: 30%;
+}
+
+.profile-img {
+    height: 128px;
+    width: 128px;
+}
