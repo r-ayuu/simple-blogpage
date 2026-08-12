@@ -27,10 +27,14 @@
 
 .home-left-split {
     width: 70%;
+    margin: 50px;
 }
 
 .home-right-split {
+    display: flex;
     width: 30%;
+    justify-content: center;
+    align-items: center;
 }
 
 .profile-img {
