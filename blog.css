@@ -9,10 +9,11 @@
 }
 
 .title-box {
-    text-align: center;
-    padding: 24px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: antiquewhite;
+    padding: 24px;
 }
 
 .home-split {
