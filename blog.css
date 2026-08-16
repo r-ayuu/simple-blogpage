@@ -4,16 +4,24 @@ body {
 }
 
 header {
-    background-color: cadetblue;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 75px;
+    margin: 12px;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header span {
+    background-color: darkgray;
+    border-radius: 20px;
+    padding: 12px;
+
 }
 
 .carousel-inner img {
     height: 400px;
-    
 }
 
 .card-grid {
@@ -24,7 +32,7 @@ header {
     padding: 24px;
     gap: 16px;
     margin: 24px;
-    background-color: antiquewhite;
+    background-color: ghostwhite;
     border-radius: 20px;
 }
 
@@ -66,6 +74,7 @@ header {
     width: 30%;
     justify-content: center;
     align-items: center;
+
 }
 
 .blog-icon {
@@ -75,7 +84,6 @@ header {
     border-style: solid;
     border-color: black;
     border-width: 2px;
-
 }
 
 .travel-img {
