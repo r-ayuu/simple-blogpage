@@ -44,7 +44,7 @@ header {
 }
 
 .home-right-split, .home-left-split {
-    padding: 25px;
+    padding: 24px;
 }
 
 .home-left-split {
@@ -76,6 +76,44 @@ header {
     border-width: 2px;
 
 }
+
+.travel-img {
+    height: 280px;
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.travel-img-fig {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+}
+
+.travel-split {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.travel-right-split-rpic, .travel-left-split-rpic, .travel-right-split-lpic, .travel-left-split-lpic {
+    padding: 24px;
+}
+
+.travel-right-split-rpic, .travel-left-split-lpic {
+    width: 30%;
+}
+
+.travel-left-split-rpic, .travel-right-split-lpic {
+    width: 70%;
+}
+
+
+
 /* body{
     margin: 0;
 }
