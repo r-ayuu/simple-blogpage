@@ -77,6 +77,12 @@ header span {
 
 }
 
+figure figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .blog-icon {
     height: 128px;
     width: 128px;
@@ -114,7 +120,11 @@ header span {
     padding: 24px;
     border-radius: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .travel-right-split-rpic, .travel-left-split-rpic, .travel-right-split-lpic, .travel-left-split-lpic {
@@ -129,75 +139,3 @@ header span {
     width: 70%;
 }
 
-
-
-/* body{
-    margin: 0;
-}
-
-.navbar {
-    display: flex;
-    justify-content: center;2
-    background-color: bisque;
-}
-.navbar-links {
-    display: flex;
-    padding: 10px;
-    margin: 10px;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar-links a{
-    flex: 1;
-    text-align: center;
-    text-decoration: none;
-    padding: 18px;
-    background-color: blanchedalmond;
-    color: black;
-    
-}
-
-.title-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: antiquewhite;
-    padding: 24px;
-}
-
-.home-split {
-    display: flex;
-    height: 100%;
-    margin-top: 25px;
-}
-
-.home-right-split, .home-left-split {
-    padding: 25px;
-}
-
-.home-left-split {
-    width: 70%;
-    padding: 50px;
-}
-
-.home-right-split {
-    display: flex;
-    width: 30%;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffffff;
-    box-shadow: 0, 4px, 8px rgba(200, 0, 0, 0.6);
-}
-
-.blog-icon {
-    height: 128px;
-    width: 128px;
-    border-radius: 100px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-
-}
- */
