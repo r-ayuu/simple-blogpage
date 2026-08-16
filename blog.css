@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -19,6 +23,7 @@
     text-decoration: none;
     padding: 18px;
     background-color: blanchedalmond;
+    color: black;
     
 }
 
@@ -33,6 +38,7 @@
 .home-split {
     display: flex;
     height: 100%;
+    margin-top: 25px;
 }
 
 .home-right-split, .home-left-split {
@@ -41,7 +47,7 @@
 
 .home-left-split {
     width: 70%;
-    margin: 50px;
+    padding: 50px;
 }
 
 .home-right-split {
@@ -49,10 +55,17 @@
     width: 30%;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0, 4px, 8px rgba(200, 0, 0, 0.6);
 }
 
 .blog-icon {
     height: 128px;
     width: 128px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+
 }
 
