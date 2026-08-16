@@ -109,6 +109,14 @@ header span {
     align-items: center;
 }
 
+.travel-content {
+    background-color: ghostwhite;
+    padding: 24px;
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
 .travel-right-split-rpic, .travel-left-split-rpic, .travel-right-split-lpic, .travel-left-split-lpic {
     padding: 24px;
 }
