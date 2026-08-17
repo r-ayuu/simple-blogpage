@@ -1,20 +1,46 @@
 body {
     margin: 0;    
-    background-color: gainsboro;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.blog-brand {
+    display: flex;
+    margin: 24px 24px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: white;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    padding: 16px;
+    margin: 0;
+}
+
+.nav-links a {
+    margin: 7px 7px;
+    text-decoration: none;
 }
 
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 75px;
+    padding: 25px;
     margin: 12px;
-    border-radius: 20px;
+    border-radius: 65px;
     background-color: ghostwhite;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header span {
-    background-color: darkgray;
+    background-color: darkcyan;
     border-radius: 20px;
     padding: 12px;
 
@@ -34,6 +60,11 @@ header span {
     margin: 24px;
     background-color: ghostwhite;
     border-radius: 20px;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
 }
 
 @media (min-width: 768px) {
@@ -64,10 +95,19 @@ header span {
 }
 
 .home-left-split-content {
-    background-color: gray;
+    background-color: darkgray;
     border-radius: 20px;
     padding: 24px;
 }
+
+.home-left-split-content a {
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
 
 .home-right-split {
     display: flex;
@@ -81,6 +121,7 @@ figure figcaption {
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
+    color: white;
 }
 
 .blog-icon {
@@ -88,54 +129,87 @@ figure figcaption {
     width: 128px;
     border-radius: 100px;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     border-width: 2px;
-}
-
-.travel-img {
-    height: 280px;
-    max-width: 100%;
-    border-radius: 30px;
-}
-
-.travel-img-fig {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    padding: 10px;
-    margin: 10px;
-    background-color: antiquewhite;
-    border-radius: 30px;
-}
-
-.travel-split {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.travel-content {
-    background-color: ghostwhite;
-    padding: 24px;
-    border-radius: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.travel-right-split-rpic, .travel-left-split-rpic, .travel-right-split-lpic, .travel-left-split-lpic {
+.logs-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .logs-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .logs-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.logs-grid {
+    margin: 100px;
+    padding: 40px;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.logs-content a{
+    text-decoration: none;
+}
+
+.logs-content {
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+footer {
+    color: white;
+}
+
+.footer-split-container {
+    display: flex;
+}
+
+.foot-right, .foot-left {
     padding: 24px;
+    width: 50%;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
-.travel-right-split-rpic, .travel-left-split-lpic {
-    width: 30%;
+.foot-right {
+    border-left: 1px solid white;
 }
 
-.travel-left-split-rpic, .travel-right-split-lpic {
-    width: 70%;
+.footer-ul {
+    list-style-type: none;
 }
 
+.footer-ul a {
+    text-decoration: none;
+}
+.footer-contacts {
+    margin-top: 25px;
+}
+.footer-foot {
+    margin: 10px;
+}
+
+.feature-section, .logs-section {
+    margin-left: 24px;
+    margin-top: 24px;
+    color: white;
+}
+
+hr {
+    color: white;
+}
