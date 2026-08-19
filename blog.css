@@ -3,6 +3,10 @@ body {
     background-color: black;
 }
 
+footer {
+    background-color: dimgrey;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -51,6 +55,12 @@ header span {
     height: 400px;
 }
 
+.card {
+    background-color: #111827;
+    color: azure;
+    border-radius: 10px;
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -78,6 +88,13 @@ header span {
     .card-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
+}
+
+section {
+    background-color: #111111;
+    width: 100%;
+    padding: 60px ;
+    margin: 40px 0;
 }
 .home-split {
     display: flex;
@@ -187,6 +204,12 @@ footer {
     border-bottom: 2px solid white;
 }
 
+.foot-left {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
 .foot-right {
     border-left: 1px solid white;
 }
@@ -198,6 +221,7 @@ footer {
 .footer-ul a {
     text-decoration: none;
 }
+
 .footer-contacts {
     margin-top: 25px;
 }
